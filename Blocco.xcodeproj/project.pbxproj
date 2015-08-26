@@ -269,6 +269,7 @@
 					};
 					7C4AD5751B86368600CD32A8 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 3G3A9278MX;
 					};
 				};
 			};
@@ -558,10 +559,13 @@
 		7C4AD5811B86368700CD32A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ContentBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.cbc.Blocco.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -569,10 +573,13 @@
 		7C4AD5821B86368700CD32A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ContentBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.cbc.Blocco.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -596,6 +603,7 @@
 				7C4AD56B1B86363D00CD32A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C4AD56C1B86363D00CD32A8 /* Build configuration list for PBXNativeTarget "BloccoTests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +612,7 @@
 				7C4AD56E1B86363D00CD32A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C4AD56F1B86363D00CD32A8 /* Build configuration list for PBXNativeTarget "BloccoUITests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +621,7 @@
 				7C4AD5711B86363D00CD32A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C4AD5801B86368700CD32A8 /* Build configuration list for PBXNativeTarget "ContentBlocker" */ = {
 			isa = XCConfigurationList;
@@ -620,6 +630,7 @@
 				7C4AD5821B86368700CD32A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
