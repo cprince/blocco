@@ -1,0 +1,35 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*",
+            "resource-type": ["script"],
+            "load-type": ["third-party"],
+            "if-domain": ["*imore.com"]
+        }
+    },
+ 
+         {
+         "action": {
+            "type": "css-display-none",
+            "selector": "div.recent-posts"
+         },
+         "trigger": {
+             "url-filter": ".*",
+             "if-domain": ["*imore.com"]
+         }
+     },
+ 
+     {
+         "action": {
+             "type": "css-display-none",
+             "selector": "div.netshelter-ad-inner"
+         },
+         "trigger": {
+             "url-filter": ".*",
+             "if-domain": ["*imore.com"]
+     }
+ }
+]
